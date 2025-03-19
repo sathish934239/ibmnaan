@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio - SATHISH KUMAR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #8B0000; /* Dark Red */
+            color: #FFD700; /* Gold */
+        }
+
+        header {
+            background-color: #FFD700;
+            color: #8B0000;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+        }
+
+        .header-content h1 {
+            font-size: 2.8rem;
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 20px;
+            left: 90%;
+            transform: translateX(-50%);
+        }
+
+        nav {
+            background-color: #B22222; /* Firebrick */
+            text-align: center;
+            padding: 0.8rem;
+        }
+
+        nav ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #FFD700;
+            font-weight: bold;
+        }
+
+        .section-content {
+            background-color: #fff;
+            color: #8B0000;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: justify;
+        }
+
+        .download-button {
+            background-color: #8B0000;
+            color: #FFD700;
+            padding: 0.7rem 1.2rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .download-button:hover {
+            background-color: #B22222;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #FFD700;
+            color: #8B0000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="sathishkk.jpg" alt="Sathish Kumar" class="profile-picture">
+            <h1>SATHISH KUMAR</h1>
+            <p>BCA Student</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section-content">
+        <h2>About Me</h2>
+        <p>I am a passionate and dedicated student pursuing a Bachelor of Computer Applications (BCA). My interests lie in software development, technology, and continuous learning.</p>
+    </section>
+
+    <section id="education" class="section-content">
+        <h2>Education</h2>
+        <p>I completed my schooling in 2023 and am currently pursuing my BCA degree, expected to graduate in 2026.</p>
+    </section>
+
+    <section id="skills" class="section-content">
+        <h2>Skills</h2>
+        <ul>
+            <li>DBMS</li>
+            <li>Python</li>
+            <li>HTML/CSS</li>
+            <li>C</li>
+            <li>Java</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="section-content">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="#">jewellaryshop</a></li>
+            <li><a href="#">Cyber Security (IBM)</a></li>
+            <li><a href="#">College Portal</a></li>
+        </ul>
+    </section>
+
+    <section id="resume" class="section-content">
+        <h2>Resume</h2>
+        <a href="sathisre.pdf" target="_blank" class="download-button">Download CV</a>
+        <a href="sathishcerti.pdf" target="_blank" class="download-button">Download Certificate</a>
+    </section>
+
+  
+</body>
+</html>
